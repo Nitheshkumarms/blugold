@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blugold | Customize Your Water Bottle</title>
+    <meta name="description"
+        content="At Blugold, we specialize in designing and customizing premium drinking water bottles to elevate your brand.">
+    <!-- Google Fonts: Playfair Display (Elegant Serif) & Outfit (Modern Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=6">
+</head>
+
+<body>
+
+    <!-- ==========================================
+         BOTTLE PRELOADER
+    ========================================== -->
+    <div id="preloader">
+        <div class="preloader-content-wrapper">
+            <div class="bottle-spinner-container">
+                <div class="preloader-glow"></div>
+                <!-- Premium minimalist bottle icon -->
+                <svg class="bottle-spinner" viewBox="0 0 24 24" fill="none" stroke="#38bdf8" stroke-width="1.5"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M10 3h4v4h-4z" />
+                    <path d="M9 7l-2 3v10a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V10l-2-3" />
+                    <path d="M7 14h10" />
+                    <path d="M7 18h10" />
+                </svg>
+            </div>
+            <div class="preloader-brand-text">BLUGOLD</div>
+        </div>
+    </div>
+
+    <!-- Navigation Area (Transparent, Top Aligned) -->
+    <div class="nav-wrapper new-nav" id="navWrapper">
+        <nav class="main-nav-transparent">
+            <ul class="nav-links left-links">
+                <li><a href="#home" class="nav-item">HOME</a></li>
+                <li><a href="#about" class="nav-item">ABOUT</a></li>
+            </ul>
+
+            <a href="#home" class="logo-image-container">
+                <img src="logo-transparent.png" alt="Blugold" class="brand-logo">
+            </a>
+
+            <ul class="nav-links right-links">
+                <li><a href="#products" class="nav-item">PRODUCTS</a></li>
+                <li><a href="#contact" class="nav-item">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" aria-label="Toggle Menu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 12H21M3 6H21M3 18H21"></path>
+            </svg>
+        </button>
+    </div>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay">
+        <!-- ... keeping existing mobile nav ... -->
+        <div class="mobile-nav-container">
+            <button class="close-menu-btn" aria-label="Close Menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M18 6L6 18M6 6L18 18"></path>
+                </svg>
+            </button>
+            <ul class="mobile-nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section-new parallax-bg">
+            <!-- Background Image -->
+            <div class="hero-bg-image"></div>
+
+            <!-- Cloud Texture Overlays -->
+            <div class="cloud-overlay top-clouds"></div>
+            <div class="cloud-overlay bottom-clouds"></div>
+
+            <div class="container hero-content-new reveal-up">
+                <div class="hero-text-wrapper">
+                    <h1 class="hero-title-mixed">
+                        <span class="script-part">Customize</span><br>
+                        <span class="bold-part">YOUR WATER BOTTLE</span>
+                    </h1>
+                    <p class="hero-description-new">
+                        At Blugold, we specialize in designing and customizing premium drinking water bottles to elevate
+                        your brand. Personalize them with your logo and unique sticker designs. Perfect for hotels,
+                        restaurants, events, and more, our custom bottles are a cost-effective way to boost brand
+                        visibility and leave a lasting impression.
+                    </p>
+                    <div class="hero-date-box">
+                        <span>DESIGN YOURS TODAY</span>
+                    </div>
+                </div>
+                <!-- Right Side Feature Capsules -->
+                <div class="hero-features-right">
+                    <div class="feature-capsule reveal-right delay-1">
+                        <h4>NUTRITION RICH WATER</h4>
+                        <p>Vitamin B12 infusion and other minerals to make sure your health is taken care of.</p>
+                    </div>
+                    <div class="feature-capsule reveal-right delay-2">
+                        <h4>Ozonised</h4>
+                        <p>To keep everything natural and healthy for you.</p>
+                    </div>
+                    <div class="feature-capsule reveal-right delay-3">
+                        <h4>EMF</h4>
+                        <p>EMF to keep the product fresh and safe from germs and bacteria.</p>
+                    </div>
+                    <div class="feature-capsule reveal-right delay-4">
+                        <h4>GAC</h4>
+                        <p>To ensure that all harmful substances are removed from the product.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Text Overlay -->
+            <div class="hero-bottom-text reveal-up delay-2">
+                <p>BLUGOLD PREMIUM HYDRATION</p>
+            </div>
+        </section>
+
+        <!-- About Section (New Checkerboard Style) -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <!-- Added a slight header wrapper if needed, but the image shows edge-to-edge grids. We'll keep a small header just in case, but styled minimally -->
+                <div class="section-header reveal-up">
+                    <h2>Our <span class="highlight-new">Commitment</span></h2>
+                    <p>Purity, precision, and sustainability in every drop.</p>
+                </div>
+
+                <div class="about-checkerboard">
+                    <!-- Column 1: Tall Image -->
+                    <div class="feature-image-col reveal-left"
+                        style="background-image: url('https://images.unsplash.com/photo-1544148103-0773bf10d330?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                        <!-- Pouring water background -->
+                    </div>
+
+                    <!-- Column 2 Row 1: White Block -->
+                    <div class="feature-block bg-white reveal-up delay-1">
+                        <!-- We'll use a placeholder bottle SVG for now -->
+                        <svg class="fb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M9.75 3.104v5.714a2.25 2.25 0 01-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 014.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0112 15a9.065 9.065 0 00-6.23-.693L5 14.5m14.8.8l1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0112 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5" />
+                        </svg>
+                        <span class="pre-title">PREMIUM</span>
+                        <h3>Customized Bottles</h3>
+                        <p>Blugold bottles are crafted with high-grade materials and precision finishing. From logo
+                            printing to label design, every bottle is tailored to reflect your brand identity with
+                            elegance and clarity.</p>
+                    </div>
+
+                    <!-- Column 2 Row 2: Green Block -->
+                    <div class="feature-block bg-green reveal-up delay-2">
+                        <svg class="fb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M10.34 15.84c-.688-.06-1.386-.174-2.074-.343a4.5 4.5 0 115.46-5.46c.169.688.283 1.386.343 2.074.053.606-.013 1.22-.196 1.8A4.5 4.5 0 0110.34 15.84z" />
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M12 12V3m0 9l8.66-5m-8.66 5L3.34 7m8.66 5v9m0-9l8.66 5m-8.66-5l-8.66 5" />
+                        </svg>
+                        <span class="pre-title">EFFICIENT</span>
+                        <h3>Smart Automation</h3>
+                        <p>Our fully automated, touch-free production plant uses cutting-edge purification, filling, and
+                            sealing technology to ensure hygiene, consistency, and international quality standards.</p>
+                    </div>
+
+                    <!-- Column 3: Tall Image -->
+                    <div class="feature-image-col reveal-right delay-1"
+                        style="background-image: url('https://images.unsplash.com/photo-1544148103-0773bf10d330?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');">
+                        <!-- Bottles on table background -->
+                    </div>
+
+                    <!-- Column 4 Row 1: Green Block -->
+                    <div class="feature-block bg-green reveal-up delay-2">
+                        <!-- Placeholder N logo -->
+                        <svg class="fb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                        <span class="pre-title">NUTRITIOUS</span>
+                        <h3>Mineral Balanced Water</h3>
+                        <p>Blugold water undergoes multi-stage purification including RO, UV, and Ozonization processes.
+                            Carefully balanced essential minerals ensure refreshing taste, purity, and health in every
+                            sip.</p>
+                    </div>
+
+                    <!-- Column 4 Row 2: White Block -->
+                    <div class="feature-block bg-white reveal-up delay-3">
+                        <svg class="fb-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+                        </svg>
+                        <span class="pre-title">COMPLETELY</span>
+                        <h3>Eco-Conscious Packaging</h3>
+                        <p>We prioritize recyclable materials and sustainable production methods. Our bottles are
+                            designed to minimize environmental impact while keeping you hydrated responsibly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section (Checkerboard Container Redesign) -->
+        <section id="products" class="products-checkerboard-section">
+            <div class="container products-container">
+                <div class="section-header reveal-up">
+                    <h2>Premium Customized <span class="highlight-new">Water Bottles</span></h2>
+                    <p>What We Offer</p>
+                </div>
+
+                <div class="checkerboard-product-grid">
+                    <!-- Left Panel: The Pyramid Collection (White Block) -->
+                    <div class="product-block bg-white reveal-left">
+                        <div class="product-block-content">
+
+
+                            <!-- Center Bottles -->
+                            <div class="glass-bottles-wrapper reveal-scale delay-1">
+                                <img src="pyramidBottle.png" alt="Pyramid Bottle" class="bottle-main"
+                                    style="mix-blend-mode: multiply;">
+                            </div>
+
+                            <!-- Right floating feature card -->
+                            <div class="feature-card-float feature-right reveal-scale delay-2">
+                                <div class="neck-diagram">
+                                    <svg width="70" height="70" viewBox="0 0 100 100" fill="none" stroke="#2b4c7e"
+                                        stroke-width="2">
+                                        <path d="M40 20 h20 v10 h-20 z" />
+                                        <path d="M35 30 h30 l-5 5 h-20 z" />
+                                        <path d="M30 35 l-15 25 v20 h70 v-20 l-15-25 z" />
+                                        <!-- diagram dashed lines -->
+                                        <path d="M15 60 h70" stroke-dasharray="2,2" stroke="#6b8ebf" />
+                                        <path d="M30 35 L10 20 M70 35 L90 20" stroke-dasharray="2,2" stroke="#6b8ebf" />
+                                    </svg>
+                                </div>
+                                <p>Pyramid neck</p>
+                            </div>
+                        </div>
+
+                        <div class="product-block-footer">
+                            <h3>The Pyramid Collection</h3>
+                            <div class="attributes-grid">
+                                <div class="attr-item">Unique neck</div>
+                                <div class="attr-item">Pyramid-shaped</div>
+                                <div class="attr-item">Sturdy design</div>
+                                <div class="attr-item">Premium badge</div>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-solid-dark">Learn More ></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Panel: The Round Collection (Blue Block) -->
+                    <div class="product-block bg-blue reveal-right delay-1">
+                        <div class="product-block-content">
+                            <!-- Left floating feature card -->
+                            <div class="feature-card-float feature-left reveal-scale delay-2">
+                                <div class="neck-diagram">
+                                    <svg width="70" height="70" viewBox="0 0 100 100" fill="none" stroke="#2b4c7e"
+                                        stroke-width="2">
+                                        <path d="M40 20 h20 v10 h-20 z" />
+                                        <path d="M35 30 h30 a15 15 0 0 1 15 15 v15 h-60 v-15 a15 15 0 0 1 15-15 z" />
+                                        <path d="M20 60 h60" stroke-dasharray="2,2" stroke="#6b8ebf" />
+                                        <path d="M20 45 a20 20 0 0 0 -10 -15 M80 45 a20 20 0 0 1 10 -15"
+                                            stroke-dasharray="2,2" stroke="#6b8ebf" />
+                                    </svg>
+                                </div>
+                                <p>Round</p>
+                                <p>neck</p>
+                            </div>
+
+                            <!-- Center Bottles -->
+                            <div class="glass-bottles-wrapper reveal-scale delay-1">
+                                <img src="roundBottle.png" alt="Round Bottle" class="bottle-main"
+                                    style="mix-blend-mode: multiply;">
+                            </div>
+
+
+                        </div>
+
+                        <div class="product-block-footer">
+                            <h3>The Round Collection</h3>
+                            <div class="attributes-grid">
+                                <div class="attr-item">Classic shape</div>
+                                <div class="attr-item">Ergonomic comfort</div>
+                                <div class="attr-item">Familiar design</div>
+                                <div class="attr-item">Café &amp; design</div>
+                            </div>
+                            <div class="btn-wrap">
+                                <a href="#" class="btn-solid-light">Learn More ></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="products-bottom-text">
+                    <span class="sparkle">✧</span> Explore Our Full Range or Contact an Agent <span
+                        class="sparkle">✧</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners / Scrolling Logos Section -->
+        <section id="partners" class="partners-section">
+            <div class="container">
+                <div class="section-header reveal-up">
+                    <h2>Our Trusted <span class="highlight-new">Partners</span></h2>
+                </div>
+            </div>
+
+            <div class="partners-grid-container reveal-scale">
+                <div class="partners-grid">
+                    <div class="partner-grid-item"><img src="logo1.jpeg" alt="Partner 1"></div>
+                    <div class="partner-grid-item"><img src="logo2.jpeg" alt="Partner 2"></div>
+                    <div class="partner-grid-item"><img src="logo3.jpeg" alt="Partner 3"></div>
+                    <div class="partner-grid-item"><img src="logo4.jpeg" alt="Partner 4"></div>
+                    <div class="partner-grid-item"><img src="logo5.jpeg" alt="Partner 5"></div>
+                    <div class="partner-grid-item"><img src="logo6.jpeg" alt="Partner 6"></div>
+                    <div class="partner-grid-item"><img src="logo7.jpeg" alt="Partner 7"></div>
+                    <div class="partner-grid-item"><img src="logo8.jpeg" alt="Partner 8"></div>
+                    <div class="partner-grid-item"><img src="logo9.jpeg" alt="Partner 9"></div>
+                    <div class="partner-grid-item"><img src="logo10.jpeg" alt="Partner 10"></div>
+                    <div class="partner-grid-item"><img src="logo11.png" alt="Partner 11"></div>
+                    <div class="partner-grid-item"><img src="logo12.png" alt="Partner 12"></div>
+                    <div class="partner-grid-item"><img src="logo13.jpeg" alt="Partner 13"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container contact-container reveal-up">
+                <div class="contact-glass-wrapper">
+                    <div class="contact-info">
+                        <h2 class="reveal-left">Let's Create <br><span class="highlight">Something Pure.</span></h2>
+                        <p class="reveal-left delay-1">Have questions or want to get in touch? Reach out to us for
+                            bulk orders or custom branding.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="cd-item reveal-left delay-1">
+                                <div class="cd-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="cd-label">Email Us</span>
+                                    <a href="mailto:sales@blugoldindia.com" class="cd-value">sales@blugoldindia.com</a>
+                                </div>
+                            </div>
+                            <div class="cd-item reveal-left delay-2">
+                                <div class="cd-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div>
+                                    <span class="cd-label">Call Us</span>
+                                    <a href="tel:+917090063999" class="cd-value">+91 7090063999</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrap reveal-right delay-2">
+                        <form id="contactForm" class="glass-form">
+                            <h3>Send a Message</h3>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" placeholder="John Doe" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" placeholder="john@company.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone</label>
+                                <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message / Requirements</label>
+                                <textarea id="message" rows="4" placeholder="I am interested in..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary submit-btn">Submit Inquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <span class="logo">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="logo-icon">
+                        <path
+                            d="M12 21.5C17.2467 21.5 21.5 17.2467 21.5 12C21.5 6.75329 17.2467 2.5 12 2.5C6.75329 2.5 2.5 6.75329 2.5 12C2.5 17.2467 6.75329 21.5 12 21.5Z"
+                            stroke="currentColor" stroke-width="2" />
+                        <path
+                            d="M12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5 9.51472 14.4853 7.5 12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5Z"
+                            fill="currentColor" />
+                    </svg>
+                    BLUGOLD
+                </span>
+                <p>Premium customized water bottles for your brand identity.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-legal">
+                <p>&copy; 2026 Blugold India. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js?v=5"></script>
+
+    <!-- Floating WhatsApp Action Button -->
+    <a href="https://wa.me/8050737547" class="whatsapp-floating-btn" target="_blank" rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+            <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.888-.788-1.489-1.761-1.663-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+        </svg>
+    </a>
+</body>
+
+</html>
